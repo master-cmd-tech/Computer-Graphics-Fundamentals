@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Файлы заголовков\Shaders">
-      <UniqueIdentifier>{15a819ff-bd7d-4d59-9b40-9d8ff6a7bb02}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="creative.cpp">
@@ -47,22 +44,8 @@
     <None Include="Makefile">
       <Filter>Файлы ресурсов</Filter>
     </None>
-    <None Include="README">
-      <Filter>Файлы ресурсов</Filter>
-    </None>
     <None Include="report.md">
       <Filter>Файлы ресурсов</Filter>
     </None>
-    <None Include="default.vert">
-      <Filter>Файлы заголовков\Shaders</Filter>
-    </None>
-    <None Include="default.frag">
-      <Filter>Файлы заголовков\Shaders</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="shaderClass.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

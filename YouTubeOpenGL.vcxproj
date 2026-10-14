@@ -29,14 +29,8 @@
     <ClCompile Include="transformations.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="default.frag" />
-    <None Include="default.vert" />
     <None Include="Makefile" />
-    <None Include="README" />
     <None Include="report.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="shaderClass.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
