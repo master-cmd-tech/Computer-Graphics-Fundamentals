@@ -1,0 +1,51 @@
+OpenGL Assignment 1
+
+Student IT-2506: Abdrakhmanov ILnur
+Assignment: 1
+
+Description:
+
+This assignment contains four OpenGL programs.
+
+1. red_triangle.cpp
+   Displays a single red triangle.
+
+2. blue_square.cpp
+   Displays a single blue square.
+
+3. polygons.cpp
+   Displays a 2D scene containing:
+   - a circle generated using the parametric circle equation;
+   - an ellipse;
+   - a color-interpolated triangle;
+   - a square with multiple color bands.
+
+4. creative.cpp
+   Displays a creative 2D OpenGL scene containing:
+   - a red horizontal ellipse;
+   - a color-interpolated triangle;
+   - a shaded dark-red circle;
+   - concentric black and white squares.
+
+OpenGL
+
+The programs use modern OpenGL 3.3 Core Profile.
+
+Deprecated OpenGL functions such as glBegin(), glEnd(),
+glVertex*(), glColor*(), and fixed-function matrix operations
+are not used.
+
+The vertex and color information is passed to the shaders using vertex attributes.
+
+Libraries:
+The programs use:
+- GLFW
+- GLAD
+- OpenGL 3.3 Core Profile
+
+Window size: The programs use a 500 x 500 pixel window.
+
+Testing:
+Windows 11
+Visual Studio
+OpenGL 3.3 Core Profile
